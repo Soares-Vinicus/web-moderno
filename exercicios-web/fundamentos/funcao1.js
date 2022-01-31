@@ -10,9 +10,10 @@ imprimirSoma()
 
 // Funcao com retorno
 function soma(a, b = 1) {
-    return a + b
+    return a + b // Só vai imprimir no console se eu chamar a função dentrode um console.log()
 }
 
+soma() // a função não tem retorno no console.log
 console.log(soma(2, 3))
 console.log(soma(2))
 console.log(soma())
